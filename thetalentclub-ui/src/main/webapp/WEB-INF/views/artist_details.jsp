@@ -50,11 +50,27 @@ div.price-indicator {
 	color:#ff1408;
 }
 
+.circle {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  	border-radius: 99em;
+  border: 10px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+}
+
+
 </style>
 
 
 	</head>
-	<body style="background-color: #000000">
+	<body>
 		<div class="container_fluid" >
 		<!-- Menu Bar Starts -->
 			<div class="row">
@@ -79,8 +95,7 @@ div.price-indicator {
 									<li><a href="/thetalentclub-ui/artist/search">Home</a></li>
 									<!-- <li><a href="browse.ui">BROWSE</a></li> 
 									<li><a href="/createevent">CREATE EVENT</a></li>-->
-									<li><a href="#">How It Works</a></li>
-									<li><a href="#">About Us</a></li>
+									
 									<!--<li><a href="signup">SIGN UP</a></li>
 									<li><a href="login">LOGIN</a></li> -->
 								</ul>
@@ -107,7 +122,7 @@ div.price-indicator {
 				<div class="col-lg-6 col-xs-12 text-center">
 					
 					<div class="row ">
-					<div class="circle" style="background-image: url(/indie-web-srvc/image/Beastmode_Crew_1.jpg)"></div>
+					<div class="circle" style="background-image: url(<%=request.getContextPath()%>/resources/images/Beastmode_Crew_1.jpg)"></div>
 					</div>
 					<div class="row ">
 				
@@ -154,7 +169,7 @@ div.price-indicator {
 				<div class="col-lg-6 col-xs-12 text-center">
 					
 							
-							<font color="white">
+							<font >
 							<h1>
 							Vicky Shriyan
 							</h1>
@@ -264,7 +279,7 @@ div.price-indicator {
 									style="height: auto;margin-top:50px;">
 									
 									<div id="bioDiv" class="text-justify">
-										<span style="white-space: pre-wrap"><font color="white">DJ. Turntablist. Educator. Curator. Blogger. For more that 15 years the multi faceted wizard called Reji Ravindran has been one of the most prolific names in India's electronic & alternative music scene. You would still find him smashing dance floors of all sizes from behind the decks; and inspiring young & old minds behind the scene, through all his various related roles. As a curator, he is the brains behind Mumbai's favourite mid week party - Mixtaped!. Off decks, his duties continue during the day time as the HOD (DJing department) at South Asia's leading music institute, The True School of Music. Through the years, Reji has entertained & educated the masses in conjunction with some of the best national & international art galleries, bands, brands, celebrities, colleges, comedians, crews, DJs, exhibitions, fashion designers, festivals, institutes, labels, musicians, night clubs, organizers, performers, private parties, promoters, radio stations, schools, special events, training centers & universities. This prolific list includes:
+										<span style="white-space: pre-wrap"><font >DJ. Turntablist. Educator. Curator. Blogger. For more that 15 years the multi faceted wizard called Reji Ravindran has been one of the most prolific names in India's electronic & alternative music scene. You would still find him smashing dance floors of all sizes from behind the decks; and inspiring young & old minds behind the scene, through all his various related roles. As a curator, he is the brains behind Mumbai's favourite mid week party - Mixtaped!. Off decks, his duties continue during the day time as the HOD (DJing department) at South Asia's leading music institute, The True School of Music. Through the years, Reji has entertained & educated the masses in conjunction with some of the best national & international art galleries, bands, brands, celebrities, colleges, comedians, crews, DJs, exhibitions, fashion designers, festivals, institutes, labels, musicians, night clubs, organizers, performers, private parties, promoters, radio stations, schools, special events, training centers & universities. This prolific list includes:
 										</font></span>
 									</div>
 								</div>
@@ -275,7 +290,7 @@ div.price-indicator {
 											
 												<div class="col-xs-12 col-sm-4 col-md-4" style="padding:10px;">
 													<img data-src="holder.js/100%x200" alt="100%x200"
-														src="/indie-web-srvc/image/Beastmode_Crew_1.jpg"
+														src="<%=request.getContextPath()%>/resources/images/Beastmode_Crew_1.jpg"
 														onError="this.src='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQyIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDI0MiAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMjQyIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjkzIiB5PSIxMDAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MTFwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj4yNDJ4MjAwPC90ZXh0PjwvZz48L3N2Zz4='"
 														data-holder-rendered="true"
 														style="height: 300px; width: 300px; display: block;border: 5px solid #eee;">
@@ -283,7 +298,7 @@ div.price-indicator {
 											
 												<div class="col-xs-12 col-sm-4 col-md-4" style="padding:10px;">
 													<img data-src="holder.js/100%x200" alt="100%x200"
-														src="/indie-web-srvc/image/Beastmode_Crew_2.jpg"
+														src="<%=request.getContextPath()%>/resources/images/Beastmode_Crew_2.jpg"
 														onError="this.src='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQyIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDI0MiAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMjQyIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjkzIiB5PSIxMDAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MTFwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj4yNDJ4MjAwPC90ZXh0PjwvZz48L3N2Zz4='"
 														data-holder-rendered="true"
 														style="height: 300px; width: 300px; display: block;border: 5px solid #eee;">
@@ -291,7 +306,7 @@ div.price-indicator {
 											
 												<div class="col-xs-12 col-sm-4 col-md-4" style="padding:10px;">
 													<img data-src="holder.js/100%x200" alt="100%x200"
-														src="/indie-web-srvc/image/Beastmode_Crew_3.jpg"
+														src="<%=request.getContextPath()%>/resources/images/Beastmode_Crew_3.jpg"
 														onError="this.src='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQyIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDI0MiAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMjQyIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjkzIiB5PSIxMDAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MTFwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj4yNDJ4MjAwPC90ZXh0PjwvZz48L3N2Zz4='"
 														data-holder-rendered="true"
 														style="height: 300px; width: 300px; display: block;border: 5px solid #eee;">
@@ -299,7 +314,7 @@ div.price-indicator {
 											
 												<div class="col-xs-12 col-sm-4 col-md-4" style="padding:10px;">
 													<img data-src="holder.js/100%x200" alt="100%x200"
-														src="/indie-web-srvc/image/Beastmode_Crew_4.jpg"
+														src="<%=request.getContextPath()%>/resources/images/Beastmode_Crew_4.jpg"
 														onError="this.src='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjQyIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDI0MiAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMjQyIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjkzIiB5PSIxMDAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MTFwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj4yNDJ4MjAwPC90ZXh0PjwvZz48L3N2Zz4='"
 														data-holder-rendered="true"
 														style="height: 300px; width: 300px; display: block;border: 5px solid #eee;">
@@ -432,7 +447,7 @@ div.price-indicator {
 				
 						</div>
 										
-			      
+			         
 			      	</form>
 				</div>
       		</div>			
